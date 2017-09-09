@@ -18,6 +18,11 @@ display: block;
 min-width: 450px;
 max-width: 900px;
 padding: 10px;
+
+-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+user-select: none;          /* Likely future */      
 }
 
 .header{
@@ -47,6 +52,9 @@ padding: 10px;
   cursor: pointer;
   font-size: 14px;
 
+-webkit-box-shadow: inset 0px 1px 2.5px 0.5px rgba(230,230,230,1);
+-moz-box-shadow: inset 0px 1px 2.5px 0.5px rgba(230,230,230,1);
+box-shadow: inset 0px 1px 2.5px 0.5px rgba(230,230,230,1);
 }
 
 #btn-insult{
@@ -125,6 +133,15 @@ width: 25%;
   -o-user-select: none;
   cursor:pointer;
 
+-webkit-box-shadow: 0.5px 1.5px 2px 0.5px rgba(210,210,210,1);
+-moz-box-shadow: 0.5px 1.5px 2px 0.5px rgba(210,210,210,1);
+box-shadow: 0.5px 1.5px 2px 0.5px rgba(210,210,210,1);
+}
+
+.generateButton:hover{
+-webkit-box-shadow: 0.5px 1.5px 2px 1px rgba(210,210,210,1);
+-moz-box-shadow: 0.5px 1.5px 2px 1px rgba(210,210,210,1);
+box-shadow: 0.5px 1.5px 2px 1px rgba(210,210,210,1);
 }
 
 .generateButton-insult:hover{
@@ -163,6 +180,11 @@ width: 25%;
     width: 100%;
     min-height: 26px;
     font-size: 16px;
+
+    -webkit-user-select: all;  /* Chrome 49+ */
+    -moz-user-select: all;     /* Firefox 43+ */
+    -ms-user-select: all;      /* No support yet */
+    user-select: all;          /* Likely future */  
 }
 
 
@@ -185,6 +207,10 @@ width: 25%;
   -webkit-user-select: none;
   -o-user-select: none;
   cursor:pointer;
+
+-webkit-box-shadow: 0.5px 1.5px 2px 0.5px rgba(210,210,210,1);
+-moz-box-shadow: 0.5px 1.5px 2px 0.5px rgba(210,210,210,1);
+box-shadow: 0.5px 1.5px 2px 0.5px rgba(210,210,210,1);
 }
 
 #copybutton:hover{
