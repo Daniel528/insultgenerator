@@ -1,4 +1,4 @@
 # insultgenerator
 Generator insults and compliments
 
-## [insult generator](/popout.html)
+## [insult generator](/popup.html)
