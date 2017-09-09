@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+
+.body {
+font-family: 'Roboto', sans-serif;
+font-weight: lighter;
+font-size: 100%;
+
+display: block;
+min-width: 450px;
+max-width: 900px;
+padding: 10px;
+}
+
+.header{
+  display: block;
+  padding:5px 0px 20px 0px;
+}
+
+#title{
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: super;
+}
+
+.modeSelect{
+  display: inline-block;
+  cursor:pointer;
+  float: right;
+
+
+}
+
+.modeSelect button{
+    float: left;
+  padding: 5px 0px;
+  width: 100px;
+  border:1px solid lightgrey;
+  cursor: pointer;
+  font-size: 14px;
+
+}
+
+#btn-insult{
+  border-radius: 5px 0px 0px 5px;
+}
+
+.insult-active{
+  background-color: #d50000;
+  color:white;
+-webkit-box-shadow: inset 0px 0px 0px 0px rgba(230,230,230,0) !important;
+-moz-box-shadow: inset 0px 0px 0px 0px rgba(230,230,230,0) !important;
+box-shadow: inset 0px 0px 0px 0px rgba(230,230,230,0)!important;
+}
+
+
+#btn-compliment{
+  border-radius: 0px 5px 5px 0px;
+}
+
+
+.compliment-active{
+  background-color: #5ed114 ;
+  color:white;
+
+-webkit-box-shadow: inset 0px 0px 0px 0px rgba(230,230,230,0) !important;
+-moz-box-shadow: inset 0px 0px 0px 0px rgba(230,230,230,0) !important;
+box-shadow: inset 0px 0px 0px 0px rgba(230,230,230,0) !important;
+}
+/*#5ed114*/
+/*#64dd17*/
+
+.green {
+ background-color: #5ed114;
+}
+
+.red{
+  background-color: #d50000;
+}
+
+.left{
+display: inline-block;
+width: 75%;
+
+}
+
+.right{
+display: inline-block;
+vertical-align: top;
+width: 25%;
+}
+
+#tagLine{
+  font-size: 20px;
+  padding: 5px 0px;
+  line-height: 21px;
+  display: block;
+  font-weight: lighter;
+
+  color:lightgrey;
+
+  margin-bottom: 15px;
+}
+
+.generateButton{
+  color:white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  transition:all 0.1s;
+
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  cursor:pointer;
+
+}
+
+.generateButton-insult:hover{
+  background-color: #FF0000;
+}
+
+.generateButton-insult:active{
+  background-color: #FF0000;
+  margin-top: 2px;
+}
+
+.generateButton-compliment:hover{
+  background-color: #64dd17;
+}
+
+.generateButton-compliment:active{
+  background-color: #64dd17;
+  margin-top: 2px;
+}
+
+.phraseContainer{
+  width: 80%;
+  display: inline-block;
+}
+
+.copybuttonContainer{
+  width: 15%;
+  display: inline-block;
+}
+
+#phrase{
+    margin-right: 5px;
+    padding-top: 3px;
+    border-bottom: 2px solid lightgrey;
+    display: inline-block;
+    width: 100%;
+    min-height: 26px;
+    font-size: 16px;
+}
+
+
+/*Copy Button*/
+
+#copybutton{
+  color:black;
+  background-color: #E0E0E0; 
+  padding: 5px 10px;
+  border-radius: 0px 5px 5px 0px;
+  position: initial;
+  display: inline-block;
+  
+  height: 24px;
+  transition:all 0.1s;
+
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  cursor:pointer;
+}
+
+#copybutton:hover{
+  background-color: #F2F2F2;
+}
+
+#copybutton:active{
+  background-color: #97FF89;
+  margin-top: 3px;
+}
